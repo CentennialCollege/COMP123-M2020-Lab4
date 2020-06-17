@@ -10,6 +10,14 @@ namespace COMP123_M2020_Lab4
     {
         static void Main(string[] args)
         {
+            // instantiate object of type Person
+            Person tom = new Person("Tom", 40);
+
+            // use saysHello method with . accessor
+            tom.SaysHello();
+
+            Console.ReadLine();
+
         }
     }
 }
